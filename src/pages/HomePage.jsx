@@ -23,30 +23,9 @@ const FlatButtons = props => {
   const { classes } = props;
   return (
     <div>
-        <Grid
-        container
-        direction="column"
-        justify="space-between"
-        alignItems="center"
-        > 
                 <NotificationCardHome />
-        </Grid>
-        <Grid
-        container
-        direction="column"
-        justify="space-between"
-        alignItems="center"
-        > 
                 <SummaryCardHome />
-        </Grid>
-        <Grid
-        container
-        direction="column"
-        justify="space-between"
-        alignItems="center"
-        > 
                 <InformationCardHome />
-        </Grid>
     </div>
   );
 };

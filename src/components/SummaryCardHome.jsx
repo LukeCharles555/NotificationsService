@@ -22,9 +22,8 @@ const styles = theme => ({
 
   function SummaryCard(props) {
   return (
-    <div className="SummaryCard">
+    <div className="SummaryCard" style={{display: "flex"}}>
         <Card>
-            Card 2
             <h1>AHJHDFDFJDIFJEJ</h1>
         </Card>
     </div>

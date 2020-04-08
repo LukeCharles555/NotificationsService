@@ -22,9 +22,8 @@ const styles = theme => ({
 
   function NotificationCard(props) {
   return (
-    <div className="NotificationCard">
+    <div className="NotificationCard" style={{display: "flex"}}>
         <Card>
-            Card 1
             <h1>AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</h1>
         </Card>
     </div>
