@@ -13,11 +13,16 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import InboxIcon from '@material-ui/icons/Inbox';
+import DehazeIcon from '@material-ui/icons/Dehaze';
+import purple from '@material-ui/core/colors/purple';
+import red from '@material-ui/core/colors/red';
 
 import HomePage from "../pages/HomePage";
 import Grid from "../pages/Grid";
 
-const drawerWidth = 240;
+const drawerWidth = 100;
 const history = createBrowserHistory();
 
 const styles = theme => ({
@@ -83,13 +88,13 @@ const styles = theme => ({
       />
       <List>
         <ListItem button component={Link} to="/" onClick={onItemClick('Home')}>
-          <ListItemText>Home</ListItemText>
+          <ListItemText><NotificationsIcon /></ListItemText>
         </ListItem>
-        <ListItem button component={Link} to="/Grid" onClick={onItemClick('Page 2')}>
-          <ListItemText>Page 2</ListItemText>
+        <ListItem button component={Link} to="/Grid" onClick={onItemClick('Notifications')}>
+          <ListItemText><InboxIcon /></ListItemText>
         </ListItem>
         <ListItem button onClick={onItemClick('Page 3')}>
-          <ListItemText>Page 3</ListItemText>
+          <ListItemText><DehazeIcon /></ListItemText>
         </ListItem>
       </List>
                 </Drawer>
