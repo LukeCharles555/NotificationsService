@@ -1,0 +1,42 @@
+[
+    {
+    "name": "Jeff",
+    "content": "I'm Jeff and I like to code",
+    "otherNames": ["Geoff", "J", "Big G"]
+    },
+    {
+    "name": "Bob",
+    "content": "Am I a builder? Can I fix it?",
+    "otherNames": ["Bobby", "Bobbo"]
+    },
+    {
+    "name": "Luke",
+    "content": "I'm Luke and I am coding this application",
+    "otherNames": []
+    },
+    {
+    "name": "Joe",
+    "content": "I'm Joe WOOOOOOOOOOOOOOOOO",
+    "otherNames": ["Mr J"]
+    },
+    {
+        "name": "Jeff",
+        "content": "I'm Jeff and I like to code",
+        "otherNames": ["Geoff", "J", "Big G"]
+        },
+        {
+        "name": "Bob",
+        "content": "Am I a builder? Can I fix it?",
+        "otherNames": ["Bobby", "Bobbo"]
+        },
+        {
+        "name": "Luke",
+        "content": "I'm Luke and I am coding this application",
+        "otherNames": []
+        },
+        {
+        "name": "Joe",
+        "content": "I'm Joe WOOOOOOOOOOOOOOOOO",
+        "otherNames": ["Mr J"]
+        }
+]
